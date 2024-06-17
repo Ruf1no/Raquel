@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o menu de navegação */
+.menu {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno padrão */
+    margin: 0; /* Remove as margens padrão */
+    background-color: #010101; /* Cor de fundo do menu */
+    overflow: hidden; /* Evita que o conteúdo do menu ultrapasse o contêiner */
+}
+
+.menu li {
+    float: left; /* Alinha os itens do menu horizontalmente */
+}
+
+.menu li a {
+    display: block; /* Converte os links em elementos de bloco para preencher todo o espaço disponível */
+    color: white; /* Cor do texto do link */
+    text-align: center; /* Centraliza o texto dentro dos links */
+    padding: 14px 16px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+.menu li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse sobre os links */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
+    margin-left: 990px; /* Move o último item para o canto direito */
+   
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: hsl(190, 68%, 62%);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+button[type="submit"],
+button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que padding não afete a largura total */
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #4f809b;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #081f20;
+}
+
+
+
+ul#listaFuncionarios {
+    margin: 20px 0; /* Margem superior e inferior */
+    padding: 0; /* Removendo qualquer preenchimento padrão */
+    list-style-type: none; /* Removendo os marcadores de lista padrão */
+    display: flex;
+    flex-wrap: wrap; /* Para que os funcionários possam quebrar a linha conforme necessário */
+    justify-content: space-around; /* Para espaçamento uniforme entre os funcionários */
+}
+
+/* Estilo para cada item da lista de funcionários */
+ul#listaFuncionarios li {
+    width: calc(33.33% - 20px); /* Definindo a largura de cada funcionário para 33.33% com margem */
+    margin: 10px; /* Espaçamento entre os funcionários */
+    background-color: #f2f2f2; /* Cor de fundo cinza */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    text-align: center; /* Centralizar conteúdo */
+}
+
+
+
+ul#listaPontos {
+    margin: 20px 0; /* Margem superior e inferior */
+    padding: 0; /* Removendo qualquer preenchimento padrão */
+    list-style-type: none; /* Removendo os marcadores de lista padrão */
+    display: flex;
+    flex-wrap: wrap; /* Para que os funcionários possam quebrar a linha conforme necessário */
+    justify-content: space-around; /* Para espaçamento uniforme entre os funcionários */
+}
+
+/* Estilo para cada item da lista de funcionários */
+ul#listaPontos li {
+    width: calc(33.33% - 20px); /* Definindo a largura de cada funcionário para 33.33% com margem */
+    margin: 10px; /* Espaçamento entre os funcionários */
+    background-color: #f2f2f2; /* Cor de fundo cinza */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    text-align: center; /* Centralizar conteúdo */
+}
+

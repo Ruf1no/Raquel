@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    max-width: 600px; /* Aumentando um pouco a largura máxima para caber melhor os elementos */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #96def0;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+label {
+    display: inline-block; /* Alterado para inline-block para ocupar o mínimo necessário */
+    width: 40%; /* Reduzindo um pouco a largura para deixar mais espaço para os inputs */
+    margin-bottom: 10px; /* Aumentando um pouco o espaço entre os labels */
+}
+
+input[type="text"],
+input[type="time"],
+input[type="date"],
+input[type="file"],
+button {
+    width: calc(100% - 22px); /* Ajustando a largura para considerar a borda de 1px (2 * 1px) e o padding */
+    padding: 10px;
+    margin-bottom: 15px; /* Aumentando um pouco o espaço entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #4f809b;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #081f20;
+}
+
